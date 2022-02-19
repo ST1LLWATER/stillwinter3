@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/stillwater/Desktop/jpegdegens/contracts/Stillwinter.sol": {
+      "lastModificationDate": 1645281407414,
+      "contentHash": "79bea8d7bf672bcb4ea67892e7d4a2b4",
+      "sourceName": "contracts/Stillwinter.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Stillwinter"
+      ]
+    }
+  }
+}
