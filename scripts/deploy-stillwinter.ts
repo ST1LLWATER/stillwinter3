@@ -11,7 +11,8 @@ async function deploy() {
 
 // @ts-ignore
 async function sayHello(stillwinter) {
+  console.log("Address:", await stillwinter.address);
   console.log("Say Hello: ", await stillwinter.hello());
 }
 
-deploy().then(sayHello);
+deploy().then((stillwinter) => sayHello(stillwinter));
